@@ -1,3 +1,7 @@
+Dungeon Defense is a tower defense game where you defend your dungeon from Heroes who want to steal your gold. Set up traps and unleash minions and creatures to try to stop them.
+
+You can play this game at http://intink.com/dungeon
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

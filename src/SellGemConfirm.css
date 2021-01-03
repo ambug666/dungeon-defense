@@ -1,0 +1,73 @@
+.sell-gem-wrapper .popup-content {
+    border: 1px solid gray !important;
+    background-color: rgba(240, 152, 214, 0.7) !important;
+    border-radius: 5px;
+    margin-left: 30px !important;
+    margin-top: 100px !important;
+    margin-right: auto !important;
+    margin-bottom: auto !important;
+    width: 25% !important;
+}
+
+.sell-gem-box {
+    padding: 8px 8px 8px 8px;
+}
+
+.sell-gem-title {
+    color: darkred;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.sell-gem-text {
+    margin-bottom: 8px;
+}
+
+.sell-gem-footer {
+    display: flex;
+    justify-content: flex-end;
+    height: 38px;
+}
+
+.sell-gem-button {
+    transition: 0.3s;
+    font-family: "Arial Rounded MT Bold", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 8px;
+    cursor: pointer;
+    border-radius: 16px;
+    outline: none;
+    position: absolute;
+    margin-top: 6px;
+}
+
+.sell-gem-ok {
+    color: lightyellow;
+    background-color: darkred;
+    border: 2px solid red;
+}
+
+.sell-gem-ok:hover {
+    background-color: red;
+    border: 2px solid darkred;
+    color: lightyellow;
+    transition: 0.3s;
+}
+
+.sell-gem-cancel {
+    margin-right: 60px;
+    color: black;
+    background-color: lightyellow;
+    border: 2px solid darkred;
+}
+
+.sell-gem-cancel:hover {
+    background-color: rgb(247, 220, 224);
+    border: 2px solid red;
+    color: black;
+    transition: 0.3s;
+}

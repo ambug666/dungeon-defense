@@ -1,0 +1,31 @@
+.help-title {
+    color: #223322;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.help-text {
+    margin-bottom: 2px;
+}
+
+.help-text-group {
+    margin-bottom: 4px;
+}
+
+.help-open-icon {
+    color: #223322;
+    cursor: pointer;
+}
+
+.help-hidden {
+    display: none;
+    visibility: hidden;
+}
+
+.help-icon {
+    float: left;
+    margin-right: 2px;
+    margin-top: 10px;
+}

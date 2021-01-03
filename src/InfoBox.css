@@ -1,0 +1,46 @@
+.info-box {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 300px;
+    background-color: rgb(200, 255, 200);
+    border: 2px solid black;
+    padding: 2px 2px 2px 2px;
+    overflow-y: hidden;
+
+}
+
+.infobox-subheader {
+    font-weight: bold;
+    font-size: smaller;
+    text-align: right;
+}
+
+.infobox-hero {
+    width: 30px;
+    height: 30px;
+}
+
+.infobox-items-row {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 6px;
+}
+
+.info-heroes {
+    flex-shrink: 0;
+}
+
+.info-log {
+    height: 100%;
+    background-color: rgb(200, 200, 200);
+    border: 2px solid black;
+    padding: 2px 2px 2px 2px;
+    overflow-y: scroll;
+}
+
+.log-text {
+    font-size: smaller;
+}

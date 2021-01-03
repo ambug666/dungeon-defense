@@ -1,0 +1,25 @@
+.start-button {
+    color: lightyellow;
+    transition: 0.3s;
+    font-family: "Arial Rounded MT Bold", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    border: 2px solid blue;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 8px;
+    cursor: pointer;
+    border-radius: 16px;
+    outline: none;
+    background-color: darkblue;
+    position: absolute;
+    margin-top: 6px;
+}
+
+.start-button:hover {
+    background-color: blue;
+    border: 2px solid darkblue;
+    color: lightyellow;
+    transition: 0.3s;
+}

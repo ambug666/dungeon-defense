@@ -1,0 +1,11 @@
+.dragon {
+    display: block;
+    position: absolute;
+    width: 90px;
+    height: 60px;
+}
+
+.dragon-flip {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}

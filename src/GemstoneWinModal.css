@@ -1,0 +1,51 @@
+.gem-win-wrapper .popup-content {
+    border: 5px solid black !important;
+    background-color: rgba(200, 200, 200, 0.9) !important;
+    border-radius: 5px;
+    margin-left: 30px !important;
+    margin-top: 100px !important;
+    margin-right: auto !important;
+    margin-bottom: auto !important;
+    width: 35% !important;
+}
+
+.gem-win-box {
+    padding: 8px 8px 40px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gem-win-title {
+    background-image: repeating-linear-gradient(to left, white, violet, indigo, blue, green, yellow, orange, red, black);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 72pt;
+    font-weight: bold;
+    font-variant-caps: titling-caps;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 8s ease infinite;
+    background-size: 800% 800%;
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 25%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.gem-win-text {
+    margin-bottom: 8px;
+    font-size: 18pt;
+    font-weight: bold;
+}

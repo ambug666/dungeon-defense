@@ -1,0 +1,85 @@
+.market {
+    display: block;
+    position: absolute;
+    width: 500px;
+    background-color: palegoldenrod;
+    border: 2px solid black;
+    padding: 2px 8px 2px 4px;
+    overflow-y: scroll;
+}
+
+.market-header {
+    flex-shrink: 0;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.market-right {
+    text-align: right;
+}
+
+.market-reputation {
+    font-style: italic;
+    color: #333333;
+}
+
+.market-text {
+    margin-bottom: 4px;
+}
+
+.market-items-header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 4px;
+}
+
+.market-items-subheader {
+    margin-left: 4px;
+    margin-bottom: 6px;
+    color: rgb(34, 38, 43);
+}
+
+.market-items-row {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 4px;
+}
+
+.market-row-selected {
+    border: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 2px 2px 2px 2px;
+}
+
+.market-icon-col {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.market-col {
+    flex: 1;
+}
+
+.market-col-2 {
+    flex: 3;
+    margin-right: 8px;
+}
+
+.market .react-tabs__tab {
+    padding: 4px 12px;
+}
+
+.market .react-tabs__tab--selected {
+    background: goldenrod;
+}
+
+.market-lab {
+    display: flex;
+}

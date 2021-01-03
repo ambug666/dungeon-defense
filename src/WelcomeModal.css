@@ -1,0 +1,36 @@
+.welcome-wrapper .popup-content {
+    border: 1px solid gray !important;
+    background-color: rgba(235, 252, 235, 0.7) !important;
+    border-radius: 5px;
+    margin-left: 30px !important;
+    margin-top: 100px !important;
+    margin-right: auto !important;
+    margin-bottom: auto !important;
+    width: 35% !important;
+}
+
+.welcome-box {
+    padding: 8px 8px 8px 8px;
+}
+
+.welcome-title {
+    color: darkgreen;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.welcome-byline {
+    color: rgb(73, 71, 71);
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+.welcome-text {
+    margin-bottom: 8px;
+}
+
+.welcome-note {
+    color: darkgreen;
+    font-style: italic;
+    margin-bottom: 8px;
+}

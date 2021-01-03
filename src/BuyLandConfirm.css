@@ -1,0 +1,73 @@
+.buy-land-wrapper .popup-content {
+    border: 1px solid gray !important;
+    background-color: rgba(240, 152, 214, 0.7) !important;
+    border-radius: 5px;
+    margin-left: 30px !important;
+    margin-top: 100px !important;
+    margin-right: auto !important;
+    margin-bottom: auto !important;
+    width: 25% !important;
+}
+
+.buy-land-box {
+    padding: 8px 8px 8px 8px;
+}
+
+.buy-land-title {
+    color: darkred;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.buy-land-text {
+    margin-bottom: 8px;
+}
+
+.buy-land-footer {
+    display: flex;
+    justify-content: flex-end;
+    height: 38px;
+}
+
+.buy-land-button {
+    transition: 0.3s;
+    font-family: "Arial Rounded MT Bold", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 8px;
+    cursor: pointer;
+    border-radius: 16px;
+    outline: none;
+    position: absolute;
+    margin-top: 6px;
+}
+
+.buy-land-ok {
+    color: lightyellow;
+    background-color: darkred;
+    border: 2px solid red;
+}
+
+.buy-land-ok:hover {
+    background-color: red;
+    border: 2px solid darkred;
+    color: lightyellow;
+    transition: 0.3s;
+}
+
+.buy-land-cancel {
+    margin-right: 60px;
+    color: black;
+    background-color: lightyellow;
+    border: 2px solid darkred;
+}
+
+.buy-land-cancel:hover {
+    background-color: rgb(247, 220, 224);
+    border: 2px solid red;
+    color: black;
+    transition: 0.3s;
+}

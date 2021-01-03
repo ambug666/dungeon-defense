@@ -1,0 +1,374 @@
+[{
+        "title": "Overview",
+        "open": true,
+        "sections": [{
+                "title": "Welcome",
+                "text": [
+                    "Welcome to Dungeon Defense.",
+                    "You just want a small comfy lair to hold your gold, but these annoying heroes keep coming in to try to steal it. ",
+                    "So you will need to build traps, hire minions, and buy creatures just to get some peace and quiet.",
+                    "Note that this tab has details on everything you can buy, including things you haven't unlocked yet, so *SPOILER ALERT*, I guess."
+                ],
+                "open": true
+            },
+            {
+                "title": "How to Play",
+                "text": [
+                    "This game has two modes, editing and wave.",
+                    "You can add things to your dungeon when editing, but during the hero wave, you'll have to sit back and watch the heroes destroy all your prized possessions. (You can, and should, refresh traps during the wave, so you do need to pay some attention)."
+                ],
+                "open": true,
+                "sections": [{
+                        "title": "Editing: How to Add Things To Your Dungeon",
+                        "text": [
+                            "To add an item to your dungeon, click on the item in the market (this yellow box on the right). This will select it (shown with a black box around the item). Then just click on the spot your want to add the item. You'll see a preview on the map if you're on a valid space for the item.",
+                            "Note that you cannot put something on top of something else, and you can't remove something once you've placed it, so be careful!"
+                        ],
+                        "open": true
+                    },
+                    {
+                        "title": "Wave: Crushing Those Foolish Heroes",
+                        "text": [
+                            "To start a wave, just click the blue button at the bottom of the map. But be careful, once a wave starts, you can't stop it until the heroes leave your dungeon.",
+                            "Once a wave starts, the heroes will head toward your lair to steal your gold while your minions and creatures move around and fight them. There's not much you can do to help your minions and creatures once a wave starts, so plan them carefully",
+                            "If a hero steps on a trap, they will activate it, causing some effect. You can reset a sprung trap by clicking on it during a wave, as long as you have the gold to reset it.",
+                            "You get a running log as the wave progresses, and a summary when it is done. Click on the blue button at the bottom of the map to go back to editing before you start the next wave."
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Winning the Game",
+                "text": [
+                    "There are three ways to win the game.",
+                    "If you can keep your gold safe for 99 waves, you will face the champions. Defeat them and you have cleansed the land of heroes and are safe.",
+                    "If you can earn enough gold, you can buy a spiffy volcano lair, and retire there in fiscal safety.",
+                    "Word has it that there are eight mystic gems hidden somewhere. If you can find them all, the you will have the wherewithal to win the game."
+                ]
+            },
+            {
+                "title": "Losing the Game",
+                "text": [
+                    "Those relentless heroes never stop trying to steal your gold. If they ever take it all, then you lose the game."
+                ]
+            },
+            {
+                "title": "The Map",
+                "text": [
+                    "The map consists of four distinct areas.",
+                    "∙ The dungeon entrance is in the upper left in yellow. You can't put anything there, and your minions won't enter it.",
+                    "∙ Most of the dungeon is impassable stone; that part is dark gray.",
+                    "∙ Your lair is in the bottom right of the screen in red. Most minions and creatures won't enter your lair, except for Dwarves who will pass through it and Dragons who rest in your lair shooting fireballs. All the gold received during a wave goes to your lair at the end of the wave. If you don't have enough room in your lair, you lose the overflow gold.",
+                    "∙ Dungeon hallways are in light gray.  You can place most minions/creatures and all traps in hallways."
+                ]
+            },
+            {
+                "title": "Gold",
+                "icon": "gold",
+                "text": [
+                    "Gold is the lifeblood of this game. You will need it to improve your dungeon, and if you collect enough of it, you can win the game.",
+                    "But you can only hold so much gold. When a hero dies, they will drop any gold they are carrying. That gold is available to be spent immediately to refresh traps, and will be moved to your lair at the end of the wave. However, if your lair fills up, any excess gold is lost. You will need a bigger lair, or to increase its capacity."
+                ]
+            },
+            {
+                "title": "Gems",
+                "icon": "gem",
+                "text": [
+                    "There are eight mystic gems hidden somewhere in the stone in the map. You'll need to hire some dwarves to dig them up, but when found they go to your lair.",
+                    "You win the game if you find all eight, but you can also spend them if you run out of gold. However, once they are spent, they are gone and you can't possibly collect all eight"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Heroes",
+        "text": [
+            "Those pesky heroes are your bane, but also a necessity. Each wave, three or more heroes will invade your dungeon, setting off traps and killing your minions and creatures. And if they make it to your lair, they will just take all your gold, your precious, precious gold.",
+            "However, they bring gold with them which they drop when they die. You need that gold to build better traps and hire stronger minions. It's a vicious cycle you are trapped in."
+        ],
+        "sections": [{
+                "title": "Fighters",
+                "icon": "fighter",
+                "text": [
+                    "Fighters are the mainstay of most heroic teams. They will sweep through your dungeon killing your minions and creatures. But they always trip traps, so at least there's that."
+                ]
+            }, {
+                "title": "Rogues",
+                "icon": "rogue",
+                "text": [
+                    "Rogues will just glide over lower level traps as if they weren't there. But they don't hit as hard as fighters and have fewer hit points. It's a balance thing."
+                ]
+            }, {
+                "title": "Archers",
+                "icon": "archer",
+                "text": [
+                    "Archers have few hit points like Rogues, but they trip traps like Fighters. However, they shoot arrows from a distance with deadly accuracy. A team of Archers will clear your dungeon of minions and creatures quickly and efficiently."
+                ]
+            },
+            {
+                "title": "Champions",
+                "icon": "champion",
+                "text": [
+                    "Champions come to your dungeon on the very last wave in a final attempt to destroy you and take all your gold. They are fighters with way more strength and hit points. Defeat them and you win the game!"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Traps",
+        "sections": [{
+                "title": "Caltrops",
+                "icon": "caltrops",
+                "text": [
+                    "Caltrops are the mainstay of your early dungeon. They consistently provide damage when a hero walks over them, well except for Rogues who can skip past traps. Plus, they are the only traps that can be built over... with higher level caltrops."
+                ]
+            },
+            {
+                "title": "Arrow Trap",
+                "icon": "arrow",
+                "text": [
+                    "Arrow traps will shoot an arrow from the wall based on the direction the trap points. The arrow will keep moving down a hallway until it hits another wall or a Hero. Rogues might not trip arrow traps so much, but they sure can be hit by arrows. You can upgrade arrow traps to fire more powerful arrows or even increase the number of arrows shot by the traps. You can change the direction of the arrow trap by clicking on it between waves."
+                ]
+            },
+            {
+                "title": "Gas Trap",
+                "icon": "gas",
+                "text": [
+                    "Gas traps emit a cloud of toxic gas when stepped on. Rogues are just as vulnerable to this gas as everyone else. You can research to upgrade the gas traps, as well as increase their duration and range (from 2x2 to eventually 3x3)."
+                ]
+            },
+            {
+                "title": "Rolling Boulder Trap",
+                "icon": "boulder",
+                "text": [
+                    "When a hero steps on a pressure plate, a rolling boulder will start down the hall in the direction of the trap. And the boulder keeps going, merrily rolling over any heroes in its way, until it reaches the far wall. You can change the direction of the rolling boulder trap by clicking on it between waves."
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Minions",
+        "text": [
+            "Minions can be hired to work for you to guard your treasure. You not only have to hire them, you have to pay them upkeep at the end of each wave. The upkeep is paid before the gold is moved to your lair, so if you have more gold than can fit in your lair, at least you pay the minions first rather than before you lose the surplus gold.",
+            "Minions that kill a hero will level up at the end of a wave. Sometimes minions just level up anyway, but not always.",
+            "When you hire a minion, you can choose what level minion to hire. The higher the level, the more expensive the minion."
+        ],
+        "sections": [{
+                "title": "Goblins",
+                "icon": "goblin",
+                "text": [
+                    "Goblins are a mainstay of an early dungeon. They are cheap and plentiful and occasionally create more goblins. But they are not very good in a fight. You'll need a larger number of goblins than other minions in order to overcome the heroes."
+                ]
+            },
+            {
+                "title": "Hirelings",
+                "icon": "hireling",
+                "text": [
+                    "Hirelings are also great for your early dungeons. They are stronger and healthier than goblins, and they'll even follow the Heroes around to try to get them. But there is probably a reason why they all wear red shirts."
+                ]
+            },
+            {
+                "title": "Trolls",
+                "icon": "troll",
+                "text": [
+                    "Trolls are the powerhouses of your late game minions. You have to research how to contact them before you can hire them, but once you do, you'll find they pack quite the punch. But be careful, Trolls will gladly attack your other minions and creatures so place them carefully."
+                ]
+            },
+            {
+                "title": "Dwarves",
+                "icon": "dwarf",
+                "text": [
+                    "Dwarves are unlike your other minions. They are there to dig tunnels in your dungeon and that is it.",
+                    "When you hire a dwarf, you may click on them to set their direction. Once the wave starts, the dwarf will dig in that direction, more or less. They may veer a little off course. Digging is not a perfect science, after all. The higher the level of the dwarf, the faster they will dig and the less likely they will be to go off course.",
+                    "Dwarves are pacifists; they will not attack the heroes. But they can take damage and die, so place them carefully."
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Creatures",
+        "text": [
+            "You can hire creatures to guard your dungeon. They cost a little more but come with all sorts of interesting powers. Unlike minions, you do not have to pay creatures at the end of each wave.",
+            "Creatures that kill a hero will level up at the end of a wave. Sometimes creatures just level up anyway, but not always.",
+            "When you hire a creature, you can choose what level creature to hire. The higher the level, the more expensive the creature."
+        ],
+        "sections": [{
+                "title": "Giant Spiders",
+                "icon": "spider",
+                "text": [
+                    "Giant spiders are pretty tough but don't pack a heavy punch... er, bite. But that bite is venomous. The heroes will suffer some lingering effects.",
+                    "Giant spiders also spin webs, traps that immobilize a hero for a short time as they struggle to escape."
+                ]
+            },
+            {
+                "title": "Dragons",
+                "icon": "dragon",
+                "text": [
+                    "Dragons can be a big powerhouse of your final defense. They are nearly indestructible but take up six of your precious lair spaces. Dragons breathe fire,incinerating any hero who gets within their line of sight (to the left or to the right). And because of this, dragons are expensive!"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Misc.",
+        "text": [
+            "The miscellaneous tab holds all sorts of wonderous things. Most of them can be built in your lair and give you a bonus to research."
+        ],
+        "sections": [{
+                "title": "Additional Lair",
+                "text": [
+            "You can increase the size of your lair, converting up to six contiguous hallway blocks to lair blocks at once. This new lair does not need to connect to your current lair."
+                ]
+            },
+            {
+                "title": "Clear Area",
+                "text": [
+            "Will remove everything in a 2x2 area, including gems, gold, minions, creatures, and traps. You can activate this in your lair or on the hallway."
+                ]
+            },
+            {
+                "title": "More Land",
+                "text": [
+            "After a while, you'll find you'll need to build beyond the bounds of the map. The first time you purchase more land, you'll add a bunch of columns of land you can explore to expand your dungeon.",
+            "The second time, you add more land, you'll get a bunch of rows at the bottom of the map.",
+            "And then the third and final time, you'll get another strip of columns to the right of the map."
+                ]
+            },
+            {
+                "title": "Research Lab",
+                "icon": "lab",
+                "text": [
+            "You can build Research Labs inside your lair. Each Research Lab allows you to research an additional item each wave. Research labs can neither be moved or destroyed.",
+            "Research Labs also unlock the Trap Workshops"
+                ]
+            },
+            {
+                "title": "Trap Workshop",
+                "icon": "trap_workshop",
+                "text": [
+            "You can build a Trap Workshop inside your lair. A trap workshop allows you to build more specialty equipment inside your lair and unlocks the ability to research rolling boulder traps.",
+            "You must build a Research Lab before you can build a Trap Workshop"
+                ]
+            },
+            {
+                "title": "Arrow Trap Workshop",
+                "icon": "arrow_trap_workshop",
+                "text": [
+            "You can build Arrow Trap Workshops inside your lair. Each Arrow Trap Workshop increases the level your Arrow Traps gain when you research increasing the Arrow Trap workshop level.",
+            "In other words, if you research increasing your arrow trap level, then your arrow traps will all gain one level. But if you have one Arrow Trap Workshop, then your traps will gain two levels. Two Arrow Trap Workshops, three levels, and so forth.",
+            "You must build a Trap Workshop before you can build an Arrow Trap Workshop"
+                ]
+            },
+            {
+                "title": "Gas Trap Workshop",
+                "icon": "gas_trap_workshop",
+                "text": [
+            "You can build Gas Trap Workshops inside your lair. Each Gas Trap Workshop increases the level your Gas Traps gain when you research increasing the Gas Trap workshop level.",
+            "In other words, if you research increasing your gas trap level, then your gas traps will all gain one level. But if you have one Gas Trap Workshop, then your traps will gain two levels. Two Gas Trap Workshops, three levels, and so forth.",
+            "You must build a Trap Workshop before you can build an Gas Trap Workshop"
+                ]
+            },
+            {
+                "title": "Volcano Lair",
+                "text": [
+            "The Volcano Lair is expensive but worth it. Buy it and you win the game!"
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Research",
+        "text": [
+            "Those pesky heroes are going to get more and more difficult to defeat each wave. To keep up, you're going to need to research clever new ways of defeating them.",
+            "You'll be presented with a list of things to research. Just click the button for whatever you want to research. If you can afford it, then the button will turn into a checkmark and you will research it during the next wave and it will be available after that wave. If you can't afford it, then the button will just stay there.",
+            "You can only research one thing each wave, but each Research Lab you have allows you to research an additional thing",
+            "Note: This section contains help tips for everything that can be researched and is full of spoilers."
+        ],
+        "sections": [{
+                "title": "Traps",
+                "sections": [{
+                        "title": "Upgrade Caltrops",
+                        "text": [
+                            "Future caltrops you build will be one level higher."
+                        ]
+                    },{
+                        "title": "Replaceable Caltrops",
+                        "text": [
+                            "Allows you to build higher level caltrops over your lower level caltrops.",
+                            "Requires a trap workshop."
+                        ]
+                    },{
+                        "title": "Upgrade Arrow Traps",
+                        "text": [
+                            "Upgrade the level of all your Arrow Traps by 1 (plus your Arrow Trap Workshops)."
+                        ]
+                    },{
+                        "title": "Additional Arrows",
+                        "text": [
+                            "Increases the number of arrows your arrow traps release.",
+                            "Requires a trap workshop."
+                        ]
+                    },{
+                        "title": "Upgrade Gas Traps",
+                        "text": [
+                            "Upgrade the level of all your Gas Traps by 1 (plus your Gas Trap Workshops)."
+                        ]
+                    },{
+                        "title": "Gas Trap Size",
+                        "text": [
+                            "Increases the number of spaces your gas traps cover.",
+                            "Requires a trap workshop."
+                        ]
+                    },{
+                        "title": "Gas Trap Duration",
+                        "text": [
+                            "Gas released by your gas traps lasts for a longer time.",
+                            "Requires a trap workshop."
+                        ]
+                    },{
+                        "title": "Invent Rolling Boulder Traps",
+                        "text": [
+                            "Allows you to build rolling boulder traps.",
+                            "Requires a trap workshop."
+                        ]
+                    },{
+                        "title": "Upgrade Rolling Boulder Traps",
+                        "text": [
+                            "Upgrade the level of all your Rolling Boulder Traps by 1.",
+                            "Requires a trap workshop."
+                        ]
+                    }
+                ]
+            },{
+                "title": "Minions",
+                "sections": [{
+                        "title": "Contact Dwarves",
+                        "text": [
+                            "Contact the Dwarves so you can hire them as minions."
+                        ]
+                    },{
+                        "title": "Contact Trolls",
+                        "text": [
+                            "Contact the Trolls so you can hire them as minions."
+                        ]
+                    }
+                ]
+            },{
+                "title": "Misc.",
+                "sections": [{
+                        "title": "Lair Upgrade",
+                        "text": [
+                            "Upgrade your lair to hold more gold. Each space of your lair can hold more gold.",
+                            "Only active after you have bought more land."
+                        ]
+                    },{
+                        "title": "Gossip Monger",
+                        "text": [
+                            "Learn your reputation. Until you research this, you won't know your reputation."
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

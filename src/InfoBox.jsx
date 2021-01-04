@@ -59,7 +59,7 @@ export function FormattedText({ text, disableReplace }) {
     let search = ["<", ">", "[b]", "[/b]", "[i]", "[/i]"];
     let replace = ["\\<", "\\>", "<b>", "</b>", "<i>", "</i>"];
     let newtext = text;
-    if (!disableReplace) {
+    if (!disableReplace && newtext) {
         search.forEach((s, idx) => newtext = newtext.replaceAll(s, replace[idx]));
     }
     return (
